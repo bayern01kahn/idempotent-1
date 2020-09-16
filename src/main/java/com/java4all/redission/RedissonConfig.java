@@ -64,7 +64,7 @@ public class RedissonConfig {
     public Redisson redisson() {
         Config config = new Config();
         config.useSingleServer().setAddress(address)
-                .setPassword(password)
+                //.setPassword(password)
                 .setIdleConnectionTimeout(idleConnectionTimeout)
                 .setConnectTimeout(connectTimeout)
                 .setTimeout(timeout)

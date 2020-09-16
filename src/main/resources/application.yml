@@ -3,7 +3,7 @@ server:
 
 #Redisson单机配置
 singleServerConfig:
-  address: "redis://192.168.13.155:6379"
+  address: "redis://127.0.0.1:6379"
   password: RLredis13
   #ping节点超时
   pingTimeout: 1000
